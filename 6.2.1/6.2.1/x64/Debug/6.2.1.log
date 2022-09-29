@@ -1,0 +1,12 @@
+﻿  6.2.1.cpp
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(46,18): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(125,18): error C2660: 'Vector::getMin': function does not take 0 arguments
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(48,9): message : see declaration of 'Vector::getMin'
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(128,14): error C2011: 'Vector': 'class' type redefinition
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(9): message : see declaration of 'Vector'
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(236,5): error C2084: function 'int main(void)' already has a body
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(101): message : see previous definition of 'main'
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(237,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(248,12): error C2079: 'vectr' uses undefined class 'Vector'
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(248,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\vladg\Desktop\6.2.1\6.2.1\6.2.1.cpp(248,17): message : The initializer contains too many elements

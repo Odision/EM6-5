@@ -1,0 +1,17 @@
+﻿  6.2.3.cpp
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(169,17): error C2374: 'monster': redefinition; multiple initialization
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(168): message : see declaration of 'monster'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(170,9): error C2561: 'Engine::monsterGeneration': function must return a value
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(157): message : see declaration of 'Engine::monsterGeneration'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(178,23): error C2011: 'Characteristics': 'class' type redefinition
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(7): message : see declaration of 'Characteristics'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(224,14): error C2011: 'Player': 'class' type redefinition
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(39): message : see declaration of 'Player'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(253,15): error C2011: 'Monster': 'class' type redefinition
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(68): message : see declaration of 'Monster'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(295,14): error C2011: 'Engine': 'class' type redefinition
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(98): message : see declaration of 'Engine'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(373,34): error C2027: use of undefined type 'Engine'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(98): message : see declaration of 'Engine'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(376,26): error C2027: use of undefined type 'Engine'
+C:\Users\vladg\Desktop\6.2.3\6.2.3\6.2.3.cpp(98): message : see declaration of 'Engine'
