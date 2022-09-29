@@ -2,6 +2,7 @@
 #include <ctime>
 #include <cmath>
 #include <vector> 
+using namespace Weapon::NameHelper;
 using namespace std;
 
 class Characteristics {
@@ -38,6 +39,8 @@ public:
 };
 class Player : public Characteristics {
 private:
+    int armor = 0;
+    int weapon = 0;
     int power = 0;
     int agility = 0;
     int endurance = 0;
@@ -377,3 +380,65 @@ int main() {
 
     return 1;
 }
+class Weapon {
+    protected:
+        Damage = 0;
+        Name = Weapon::Name::WeaponNames;
+    public:
+public:
+    Weapon(int Damage, string Name) {}
+    void setHealth(int Damage) {
+        this->Damage = Damage;
+    }
+    int getHealth() {
+        return Damage;
+    }
+    void setName(int Name) {
+    this->Name = Name;
+}
+string getName() {
+    return Name;
+}
+class Arrmor {
+    Def = 0;
+    Name = class NameHelper;
+}
+class NameHelper {
+private:
+    string WeaponNames[7] = { "Claymore","Staff","Bow", "Crossbow","Dagger","Axe","Sword" };
+public:
+    string getWeaponName() {
+        return this->WeaponNames[rand() % 7];
+    }
+};
+class Arrmor {
+protected:
+    Def = 0;
+    Name = Weapon::Name::WeaponNames;
+public:
+public:
+    Weapon(int Def, string Name) {}
+    void setHealth(int Def) {
+        this->Def = Def;
+    }
+    int getHealth() {
+        return Def;
+    }
+    void setName(int Name) {
+        this->Name = Name;
+    }
+    string getName() {
+        return Name;
+    }
+    class Arrmor {
+        Def = 0;
+        Name = class NameHelper;
+    }
+class NameHelper {
+private:
+    string ArrmorNames[3] = { "Leather","Steel","Cloth"};
+public:
+    string getArrmorName() {
+        return this->ArrmorNames[rand() % 3];
+    }
+};
